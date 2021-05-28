@@ -1,0 +1,99 @@
+@media only screen and (max-width: 1180px){
+    .weather{
+        height: 35%;
+    }
+}
+
+@media only screen and (max-width: 1180px){
+    .weather{
+        height: 40%;
+    }
+    .moreDetails{
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    .weather{
+        height: 75%;
+        flex-direction: column;
+    }
+    .search input{
+        font-size: 22pt;
+        height: 100%;
+    }
+    .search button{
+        font-size: 21pt;
+        width: 18%;
+        height: 100%;
+    }
+    .main{
+        width: 100%;
+        align-items: center;
+        margin: auto;
+    }
+    .main p:first-child{
+        margin-top: 0;
+        font-size: 40pt;
+    }
+    
+    .main p:nth-child(2){
+        font-size: 48pt;
+    }
+    
+    .main .description p{
+        font-size: 20pt;
+    }
+    
+    .main .description img{
+        width: 65px;
+        height: 65px;
+    }
+
+    .moreDetails{
+        width: 100%;
+        font-size: 20pt;
+        margin: auto;
+        text-align: center;
+    }
+
+    .moreDetails ul li{
+        margin: 0 0 15px 0;
+    }
+}
+
+@media only screen and (max-width: 750px){
+    .container{
+        width: 65vw;
+    }
+}
+
+@media only screen and (max-width: 500px){
+        .container{
+            width: 80vw;
+        }
+}
+
+@media only screen and (max-width: 350px){
+    .container{
+        width: 90vw;
+    }
+}
+
+@media only screen and (max-height: 980px){
+    .container{
+        height: 80vh;
+    }
+
+    .search{
+    font-size: 20pt;        
+    }
+}
+
+@media only screen and (max-height: 740px){
+    .container{
+        top: 2vh;
+        transform: translate(50%, 2vh);
+        height: 100vh;
+    }
+}
